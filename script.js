@@ -1,4 +1,4 @@
-const links = document.querySelectorAll('.nav-links a, .hero .btn');
+const links = document.querySelectorAll('a[href^="#"]');
 const availableIds = [...document.querySelectorAll('[id]')].map((element) => element.id).filter(Boolean);
 
 links.forEach((link) => {

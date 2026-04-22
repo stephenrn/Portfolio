@@ -10,101 +10,336 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <nav class="container nav">
-        <a href="#home" class="brand">Portfolio</a>
+        <a href="#home" class="brand">
+          <span class="brand-mark">Portfolio</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#manifesto">Manifesto</a></li>
+          <li><a href="#toolbox">Toolbox</a></li>
+          <li><a href="#work">Top Picks</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#moments">Moments</a></li>
+          <li><a href="#receipt">Contact</a></li>
+        </ul>
         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
           <span id="theme-icon">🌙</span>
         </button>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
       </nav>
     </header>
 
     <main id="home">
-      <section class="hero container card">
-        <h1>Stephen N.</h1>
-        <p class="tagline">Software Engineer / Full-stack Developer</p>
-        <a class="btn" href="#projects">View My Work</a>
-      </section>
+      <div class="poster-decor" aria-hidden="true"></div>
 
-      <section id="about" class="container section card">
-        <h2>About Me</h2>
-        <p>
-          I build clean, reliable, and user-friendly web applications from front to back. I enjoy turning ideas into practical
-          products and constantly improving performance, accessibility, and developer experience.
-        </p>
-      </section>
+      <section class="section section--hero hero" aria-label="Hero">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-main">
+              <p class="stamp">FULL-STACK</p>
+              <h1 class="hero-title">
+                <span>Stephen Raine</span>
+                <span>Villeta</span>
+              </h1>
+              <p class="hero-scribble">shipping web products with clarity + momentum</p>
+              <p class="tagline">Software Engineer / Full-stack Developer</p>
 
-      <section id="skills" class="container section">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-          <article class="card skill-card"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React</p></article>
-          <article class="card skill-card"><h3>Backend</h3><p>Node.js, Express, REST APIs</p></article>
-          <article class="card skill-card"><h3>Database</h3><p>PostgreSQL, MongoDB, Redis</p></article>
-          <article class="card skill-card"><h3>Tools</h3><p>Git, Docker, CI/CD, GitHub Actions</p></article>
+              <div class="hero-actions">
+                <a class="btn" href="#work">Browse top picks</a>
+                <a class="btn btn-secondary" href="#receipt">Get in touch</a>
+              </div>
+
+              <div class="sticker-stack" aria-label="Quick facts">
+                <div class="sticker" style="--r:-2deg">
+                  <p class="sticker-kicker">Status</p>
+                  <p class="sticker-main">Open to roles</p>
+                </div>
+                <div class="sticker" style="--r:2deg">
+                  <p class="sticker-kicker">Focus</p>
+                  <p class="sticker-main">Clean systems</p>
+                </div>
+                <div class="sticker" style="--r:-1deg">
+                  <p class="sticker-kicker">Ship</p>
+                  <p class="sticker-main">Fast iterations</p>
+                </div>
+              </div>
+            </div>
+
+            <aside class="hero-side" aria-label="Portrait and quick facts">
+              <figure class="polaroid polaroid--portrait" style="--r:-0.8deg" aria-label="Portrait">
+                <div class="polaroid-media polaroid-media--portrait">
+                  <img src="images/profile.jpeg" alt="Portrait photo" decoding="async" />
+                </div>
+                <figcaption class="polaroid-caption">nice to meet you</figcaption>
+              </figure>
+            </aside>
+          </div>
         </div>
       </section>
 
-      <section id="projects" class="container section">
-        <h2>Projects</h2>
-        <div class="projects-masonry">
-          <article class="card project-card">
-            <h3>TaskFlow</h3>
-            <p>A collaborative task management app with real-time updates and role-based access control.</p>
-            <p class="tech-stack"><strong>Tech:</strong> React, Node.js, PostgreSQL</p>
-            <div class="project-links">
-              <a class="btn btn-secondary" href="https://github.com/stephenrn/taskflow" target="_blank" rel="noopener">GitHub</a>
-              <a class="btn" href="https://taskflow-demo.vercel.app" target="_blank" rel="noopener">Live Demo</a>
+      <section id="manifesto" class="section section--manifesto">
+        <div class="container">
+          <header class="section-head">
+            <h2 class="section-title">Manifesto</h2>
+            <p class="section-sub">Small promises. Solid delivery.</p>
+          </header>
+          <div class="manifesto-grid">
+            <div class="manifesto-copy">
+              <p class="lead">
+                I build reliable, user-friendly web apps from front to back—turning messy requirements into clear systems,
+                readable code, and interfaces that feel effortless.
+              </p>
+              <p class="now-line"><span class="now-label">Now:</span> refining my portfolio, polishing case studies, and building shipping habits.</p>
             </div>
-          </article>
-
-          <article class="card project-card">
-            <h3>ShopLite API</h3>
-            <p>An e-commerce backend with authentication, order workflows, and payment integration hooks.</p>
-            <p class="tech-stack"><strong>Tech:</strong> Express, MongoDB, JWT</p>
-            <div class="project-links">
-              <a class="btn btn-secondary" href="https://github.com/stephenrn/shoplite-api" target="_blank" rel="noopener">GitHub</a>
-              <a class="btn" href="https://shoplite-api-demo.vercel.app" target="_blank" rel="noopener">Live Demo</a>
+            <div class="manifesto-tags" aria-label="Values">
+              <ul class="tag-list">
+                <li class="tag">Clarity over cleverness</li>
+                <li class="tag">Performance as a feature</li>
+                <li class="tag">Accessibility by default</li>
+              </ul>
             </div>
-          </article>
-
-          <article class="card project-card">
-            <h3>Portfolio CMS</h3>
-            <p>A lightweight CMS to update portfolio content quickly with markdown support and media uploads.</p>
-            <p class="tech-stack"><strong>Tech:</strong> JavaScript, Node.js, SQLite</p>
-            <div class="project-links">
-              <a class="btn btn-secondary" href="https://github.com/stephenrn/portfolio-cms" target="_blank" rel="noopener">GitHub</a>
-              <a class="btn" href="https://portfolio-cms-demo.vercel.app" target="_blank" rel="noopener">Live Demo</a>
-            </div>
-          </article>
-
-          <article class="card project-card">
-            <h3>Insight Dashboard</h3>
-            <p>A responsive analytics dashboard with filters, charts, and export-ready performance reports.</p>
-            <p class="tech-stack"><strong>Tech:</strong> HTML, CSS, Vanilla JavaScript</p>
-            <div class="project-links">
-              <a class="btn btn-secondary" href="https://github.com/stephenrn/insight-dashboard" target="_blank" rel="noopener">GitHub</a>
-              <a class="btn" href="https://insight-dashboard-demo.vercel.app" target="_blank" rel="noopener">Live Demo</a>
-            </div>
-          </article>
+          </div>
         </div>
       </section>
 
-      <section id="contact" class="container section card">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:stephen@example.com">stephen@example.com</a></p>
-        <div class="social-links">
-          <a href="https://github.com/stephenrn" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://www.linkedin.com/in/stephenrn/" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://x.com/stephenrn" target="_blank" rel="noopener">X</a>
+      <section id="toolbox" class="section section--toolbox">
+        <div class="container">
+          <header class="section-head">
+            <h2 class="section-title">Toolbox</h2>
+            <p class="section-sub">Stack + tools I ship with.</p>
+          </header>
+          <div class="toolbox-grid">
+            <article class="toolbox-col" aria-label="Frontend skills">
+              <h3 class="toolbox-title">Frontend</h3>
+              <ul class="chip-row">
+                <li class="chip">HTML</li>
+                <li class="chip">CSS</li>
+                <li class="chip">JavaScript</li>
+                <li class="chip">React</li>
+              </ul>
+            </article>
+            <article class="toolbox-col" aria-label="Backend skills">
+              <h3 class="toolbox-title">Backend</h3>
+              <ul class="chip-row">
+                <li class="chip">Node.js</li>
+                <li class="chip">Express</li>
+                <li class="chip">REST APIs</li>
+                <li class="chip">Auth</li>
+              </ul>
+            </article>
+            <article class="toolbox-col" aria-label="Data skills">
+              <h3 class="toolbox-title">Data</h3>
+              <ul class="chip-row">
+                <li class="chip">PostgreSQL</li>
+                <li class="chip">MongoDB</li>
+                <li class="chip">Redis</li>
+                <li class="chip">SQL</li>
+              </ul>
+            </article>
+            <article class="toolbox-col" aria-label="Tooling skills">
+              <h3 class="toolbox-title">Tooling</h3>
+              <ul class="chip-row">
+                <li class="chip">Git</li>
+                <li class="chip">Docker</li>
+                <li class="chip">CI/CD</li>
+                <li class="chip">GitHub Actions</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section section--work">
+        <div class="container">
+          <header class="section-head">
+            <h2 class="section-title">Top Picks</h2>
+            <p class="section-sub">Three projects worth a closer look.</p>
+          </header>
+
+          <div class="projects">
+            <article class="project-row">
+              <div class="project-media" aria-label="Unloque screenshot placeholder">
+                <div class="media-frame" aria-hidden="true"></div>
+                <p class="media-caption">Add Unloque screenshot</p>
+              </div>
+              <div class="project-body">
+                <p class="project-kicker">MOBILE APP</p>
+                <h3 class="project-title">Unloque</h3>
+                <p class="project-desc">
+                  A mobile application designed to streamline access to social welfare programs and visualize resource allocation management.
+                </p>
+                <ul class="chip-row" aria-label="Unloque highlights">
+                  <li class="chip">User flows</li>
+                  <li class="chip">Data visualization</li>
+                  <li class="chip">Resource tracking</li>
+                </ul>
+                <div class="project-cta">
+                  <a class="btn" href="#receipt">Request details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-row project-row--reverse">
+              <div class="project-media" aria-label="WINGR screenshot placeholder">
+                <div class="media-frame" aria-hidden="true"></div>
+                <p class="media-caption">Add WINGR screenshot</p>
+              </div>
+              <div class="project-body">
+                <p class="project-kicker">COURSE CAPSTONE</p>
+                <h3 class="project-title">WINGR</h3>
+                <p class="project-desc">
+                  A mobile application built as a final project for our Application Development course—focused on designing and building a functional,
+                  user-friendly solution end-to-end.
+                </p>
+                <ul class="chip-row" aria-label="WINGR highlights">
+                  <li class="chip">UX-first</li>
+                  <li class="chip">App architecture</li>
+                  <li class="chip">Delivery</li>
+                </ul>
+                <div class="project-cta">
+                  <a class="btn" href="#receipt">Request details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-row">
+              <div class="project-media" aria-label="Procurement workflow screenshot placeholder">
+                <div class="media-frame" aria-hidden="true"></div>
+                <p class="media-caption">Add procurement system screenshot</p>
+              </div>
+              <div class="project-body">
+                <p class="project-kicker">WORKFLOW SYSTEM</p>
+                <h3 class="project-title">Procurement Workflow Approval</h3>
+                <p class="project-desc">
+                  Workflow approval system with priority request optimization using a quantum simulation algorithm.
+                </p>
+                <ul class="chip-row" aria-label="Procurement highlights">
+                  <li class="chip">Approvals</li>
+                  <li class="chip">Optimization</li>
+                  <li class="chip">Simulation</li>
+                </ul>
+                <div class="project-cta">
+                  <a class="btn" href="#receipt">Request details</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section section--services">
+        <div class="container">
+        <header class="section-head">
+          <h2 class="section-title">Services</h2>
+          <p class="section-sub">What I can build (and ship).</p>
+        </header>
+        <div class="service-grid">
+          <article class="paper service" style="--r:1deg">
+            <h3 class="service-title">Full-stack MVP</h3>
+            <ul class="service-list">
+              <li>UI + API + database basics</li>
+              <li>Auth + roles if needed</li>
+              <li>Deployment-ready setup</li>
+            </ul>
+          </article>
+          <article class="paper service" style="--r:-1deg">
+            <h3 class="service-title">API + Auth</h3>
+            <ul class="service-list">
+              <li>REST endpoints & validation</li>
+              <li>JWT/session auth patterns</li>
+              <li>Docs + local dev workflow</li>
+            </ul>
+          </article>
+          <article class="paper service" style="--r:0.6deg">
+            <h3 class="service-title">Dashboards / CRUD</h3>
+            <ul class="service-list">
+              <li>Tables, filters, exports</li>
+              <li>Responsive layouts</li>
+              <li>Performance + accessibility pass</li>
+            </ul>
+          </article>
+        </div>
+        </div>
+      </section>
+
+      <section id="timeline" class="section section--timeline">
+        <div class="container">
+        <header class="section-head">
+          <h2 class="section-title">Timeline</h2>
+          <p class="section-sub">Proof of work, not just vibes.</p>
+        </header>
+        <div class="paper timeline">
+          <article class="timeline-item">
+            <p class="date-tag">2026</p>
+            <h3 class="timeline-title">Full-stack Projects</h3>
+            <ul class="timeline-list">
+              <li>Built and shipped multiple web apps end-to-end</li>
+              <li>Focused on DX, performance, and clean architecture</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <p class="date-tag">2025</p>
+            <h3 class="timeline-title">Backend + Systems Focus</h3>
+            <ul class="timeline-list">
+              <li>Designed APIs with authentication and workflows</li>
+              <li>Improved reliability with tests and CI patterns</li>
+            </ul>
+          </article>
+        </div>
+        </div>
+      </section>
+
+      <section id="moments" class="section section--moments">
+        <div class="container">
+        <header class="section-head">
+          <h2 class="section-title">Industry Moments</h2>
+          <p class="section-sub">Hackathons, community, and learning in public.</p>
+        </header>
+        <div class="moments-board" aria-label="Industry moments photos">
+          <figure class="paper polaroid" style="--r:-0.8deg">
+            <div class="polaroid-media">
+              <img src="images/hackathon2.jpg" alt="Photo from a hackathon event" loading="lazy" decoding="async" />
+            </div>
+            <figcaption class="polaroid-caption">CodeFest</figcaption>
+          </figure>
+          <figure class="paper polaroid" style="--r:0.9deg">
+            <div class="polaroid-media">
+              <img src="images/hackathon1.jpg" alt="Photo from an innovation challenge" loading="lazy" decoding="async" />
+            </div>
+            <figcaption class="polaroid-caption">Innovation Challenge</figcaption>
+          </figure>
+          <figure class="paper polaroid" style="--r:-0.4deg">
+            <div class="polaroid-media">
+              <img src="images/community1.jpeg" alt="Photo from a tech community event" loading="lazy" decoding="async" />
+            </div>
+            <figcaption class="polaroid-caption">Tech Community</figcaption>
+          </figure>
+        </div>
+        </div>
+      </section>
+
+      <section id="receipt" class="section section--contact">
+        <div class="container">
+        <header class="section-head">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-sub">Take a copy. Let’s build something.</p>
+        </header>
+        <div class="paper receipt">
+          <p class="receipt-line"><span class="receipt-k">Email</span> <a href="mailto:stephen@example.com">stephen@example.com</a></p>
+          <p class="receipt-line"><span class="receipt-k">GitHub</span> <a href="https://github.com/stephenrn" target="_blank" rel="noopener">github.com/stephenrn</a></p>
+          <p class="receipt-line"><span class="receipt-k">LinkedIn</span> <a href="https://www.linkedin.com/in/stephenrn/" target="_blank" rel="noopener">linkedin.com/in/stephenrn</a></p>
+          <p class="receipt-line"><span class="receipt-k">X</span> <a href="https://x.com/stephenrn" target="_blank" rel="noopener">x.com/stephenrn</a></p>
+          <hr class="receipt-rule" />
+          <p class="receipt-note">Thanks for visiting. <a href="#home">Return to top</a></p>
+        </div>
         </div>
       </section>
     </main>
