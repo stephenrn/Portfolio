@@ -9,7 +9,10 @@ links.forEach((link) => {
 
     const target = document.querySelector(href);
     if (!target) {
-      console.warn(`Navigation target not found for href: ${href}. Check that the corresponding section ID exists.`);
+      const availableIds = [...document.querySelectorAll('[id]')].map((element) => element.id).filter(Boolean);
+      console.warn(
+        `Navigation target not found for href: ${href}. Check that the corresponding section ID exists. Available IDs: ${availableIds.join(', ')}`
+      );
       return;
     }
 
@@ -26,7 +29,9 @@ const themeKey = 'portfolio-theme';
 const applyTheme = (theme) => {
   const isDark = theme === 'dark';
   body.classList.toggle('dark', isDark);
-  themeIcon.textContent = isDark ? '☀️' : '🌙';
+  if (themeIcon) {
+    themeIcon.textContent = isDark ? '☀️' : '🌙';
+  }
 };
 
 const storedTheme = localStorage.getItem(themeKey);
@@ -37,8 +42,10 @@ if (storedTheme === 'dark' || storedTheme === 'light') {
   applyTheme(systemPrefersDark ? 'dark' : 'light');
 }
 
-themeToggle.addEventListener('click', () => {
-  const nextTheme = body.classList.contains('dark') ? 'light' : 'dark';
-  applyTheme(nextTheme);
-  localStorage.setItem(themeKey, nextTheme);
-});
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    const nextTheme = body.classList.contains('dark') ? 'light' : 'dark';
+    applyTheme(nextTheme);
+    localStorage.setItem(themeKey, nextTheme);
+  });
+}
