@@ -9,6 +9,7 @@ links.forEach((link) => {
 
     const target = document.querySelector(href);
     if (!target) {
+      console.warn(`Navigation target not found for href: ${href}. Check that the corresponding section ID exists.`);
       return;
     }
 
@@ -31,6 +32,9 @@ const applyTheme = (theme) => {
 const storedTheme = localStorage.getItem(themeKey);
 if (storedTheme === 'dark' || storedTheme === 'light') {
   applyTheme(storedTheme);
+} else {
+  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  applyTheme(systemPrefersDark ? 'dark' : 'light');
 }
 
 themeToggle.addEventListener('click', () => {
