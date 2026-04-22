@@ -1,4 +1,5 @@
 const links = document.querySelectorAll('.nav-links a, .hero .btn');
+const availableIds = [...document.querySelectorAll('[id]')].map((element) => element.id).filter(Boolean);
 
 links.forEach((link) => {
   link.addEventListener('click', (event) => {
@@ -9,7 +10,6 @@ links.forEach((link) => {
 
     const target = document.querySelector(href);
     if (!target) {
-      const availableIds = [...document.querySelectorAll('[id]')].map((element) => element.id).filter(Boolean);
       console.warn(
         `Navigation target not found for href: ${href}. Check that the corresponding section ID exists. Available IDs: ${availableIds.join(', ')}`
       );
