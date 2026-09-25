@@ -109,6 +109,8 @@ images/icons/                     Skill logos and icons
 
 GitHub Pages serves the `main` branch, so every push to `main` updates [stephenrn.github.io/Portfolio](https://stephenrn.github.io/Portfolio/).
 
+When you change `styles.css` or `script.js`, bump the `?v=` value on their links in `index.html` (for example, to today’s date). Browsers cache these files, and a new version number makes every visitor load the fresh copy together with the new page.
+
 ### Credits
 
 Skill icons from [Devicon](https://devicon.dev) (MIT), [Lucide](https://lucide.dev) (ISC) and [Simple Icons](https://simpleicons.org) (CC0).
