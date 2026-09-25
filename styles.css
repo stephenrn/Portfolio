@@ -1516,10 +1516,11 @@ button {
 
 .skills-label {
   flex: none;
-  width: calc(170 * var(--ck));
+  width: calc(132 * var(--ck));
   font-family: var(--mono);
   font-weight: 700;
   font-size: max(9px, calc(12 * var(--ck)));
+  line-height: 1.35;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-primary);
@@ -1528,19 +1529,19 @@ button {
 .keys {
   display: flex;
   flex-wrap: wrap;
-  gap: calc(12 * var(--ck)) calc(10 * var(--ck));
+  gap: calc(12 * var(--ck)) calc(9 * var(--ck));
 }
 
 .key {
   --press: 0;
   display: inline-flex;
   align-items: center;
-  gap: calc(7 * var(--ck));
-  padding: calc(8 * var(--ck)) calc(12 * var(--ck)) calc(11 * var(--ck)) calc(10 * var(--ck));
+  gap: calc(6 * var(--ck));
+  padding: calc(8 * var(--ck)) calc(11 * var(--ck)) calc(11 * var(--ck)) calc(9 * var(--ck));
   border: 1px solid rgba(29, 27, 25, 0.1);
   border-radius: calc(6 * var(--ck));
   background: var(--surface-sheet);
-  font-size: max(11px, calc(14.5 * var(--ck)));
+  font-size: max(11px, calc(14 * var(--ck)));
   font-weight: 500;
   line-height: 1.3;
   letter-spacing: -0.002em;
@@ -1560,8 +1561,8 @@ button {
 
 .key img {
   flex: none;
-  width: max(14px, calc(17 * var(--ck)));
-  height: max(14px, calc(17 * var(--ck)));
+  width: max(14px, calc(16 * var(--ck)));
+  height: max(14px, calc(16 * var(--ck)));
   transition: scale 0.35s var(--ease-spring);
 }
 
@@ -3380,6 +3381,10 @@ img.pc {
   .skills-label {
     width: auto;
     font-size: 11px;
+  }
+
+  .skills-label br {
+    display: none;
   }
 
   .keys {

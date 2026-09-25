@@ -38,8 +38,8 @@ I’m looking for **on-the-job training** in software development or business an
 | --- | --- |
 | **Business & analytics** | Business process analysis, data analysis & reporting, forecasting, market research |
 | **Languages** | Python, Java, C++, C#, Dart, JavaScript, TypeScript, SQL, Swift |
-| **Frameworks & APIs** | React, Next.js, Node.js, Express.js, ASP.NET Core, Flutter, Tailwind CSS, OpenAI API |
-| **Data, cloud & tools** | PostgreSQL, MySQL, Supabase, Firebase, Microsoft Azure, Docker, Git, GitHub |
+| **Frameworks & APIs** | React, Next.js, Node.js, Express.js, ASP.NET Core, Flutter, Tailwind CSS, REST APIs |
+| **Data, cloud & tools** | PostgreSQL, MySQL, Supabase, Firebase, Microsoft Azure, Docker, Git, GitHub, Postman |
 
 ## Certifications
 
@@ -113,7 +113,7 @@ When you change `styles.css` or `script.js`, bump the `?v=` value on their links
 
 ### Credits
 
-Skill icons from [Devicon](https://devicon.dev) (MIT), [Lucide](https://lucide.dev) (ISC) and [Simple Icons](https://simpleicons.org) (CC0).
+Skill icons from [Devicon](https://devicon.dev) (MIT) and [Lucide](https://lucide.dev) (ISC).
 
 ---
 
