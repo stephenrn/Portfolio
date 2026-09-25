@@ -96,6 +96,7 @@ StephenRaine_Villeta_Resume.pdf   Résumé linked from the site
 images/figma/                     Assets exported from the Figma design
 images/projects/<project>/        Screenshot galleries
 images/certs/                     Certificates (full size + thumbnails)
+images/icons/                     Skill logos and icons
 ```
 
 ### Updating content
@@ -107,6 +108,10 @@ images/certs/                     Certificates (full size + thumbnails)
 ### Deployment
 
 GitHub Pages serves the `main` branch, so every push to `main` updates [stephenrn.github.io/Portfolio](https://stephenrn.github.io/Portfolio/).
+
+### Credits
+
+Skill icons from [Devicon](https://devicon.dev) (MIT), [Lucide](https://lucide.dev) (ISC) and [Simple Icons](https://simpleicons.org) (CC0).
 
 ---
 

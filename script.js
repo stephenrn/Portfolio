@@ -25,13 +25,13 @@
       desc: 'Built for the Procurement Office of Manuel S. Enverga University Foundation. Requesters file PR/JO forms in one place, every signatory step is timed and flagged when it runs late, and a prioritization module picks which waiting requests to release when the budget can’t cover all of them.',
       stack: 'C# · .NET · SQL',
       link: {
-        href: `mailto:${EMAIL}?subject=${encodeURIComponent('Demo request — Procurement Workflow Optimization System')}`,
+        href: `mailto:${EMAIL}?subject=${encodeURIComponent('Demo request: Procurement Workflow Optimization System')}`,
         label: 'Request a demo',
       },
       shots: [
-        'Sign in — one place to file, approve and track purchase requests',
+        'Sign in to file, approve and track purchase requests in one place',
         'Dashboard: what’s pending, approved and delayed',
-        'New Pre-PR/JO — no downloading forms, no emailed spreadsheets',
+        'New Pre-PR/JO with no downloaded forms or emailed spreadsheets',
         'Request details with the full approval timeline',
         'Reports: average days per step and delays by department',
         'Prioritization: which requests to release this cycle',
@@ -44,7 +44,7 @@
       stack: 'Next.js · TypeScript · Supabase · OpenAI API',
       link: { href: 'https://github.com/jpmartirez/checkmateph', label: 'View on GitHub' },
       shots: [
-        'Sign in — dedicated to civic integrity',
+        'Sign in to a platform dedicated to civic integrity',
         'Feed of claims and opinions, with verified experts',
         'Create a claim and attach evidence',
         'Directory of government officials',
@@ -126,26 +126,26 @@
     { id: '468HGRJ8KF9E', group: 'course', title: 'The Arduino Platform and C Programming', issuer: 'UC Irvine via Coursera', type: COURSE, date: '2026-06-18', verify: coursera('468HGRJ8KF9E') },
     { id: '7OXWSUUCVIGS', group: 'course', title: 'Interfacing with the Arduino', issuer: 'UC Irvine via Coursera', type: COURSE, date: '2026-06-18', verify: coursera('7OXWSUUCVIGS') },
     { id: '2WJK84LQH450', group: 'course', title: 'Software Testing, Deployment, and Maintenance Strategies', issuer: 'IBM via Coursera', type: COURSE, date: '2026-06-17', verify: coursera('2WJK84LQH450') },
-    { id: '1790314164915', group: 'event', title: 'SiKAPTala 2026 Virtual Hackathon', issuer: 'DLSU-Dasmariñas CICS', type: 'Hackathon', date: '2026-05-31', note: 'National CS & IT competition, May 11–15, 2026. Team Debuggerinas built CheckMatePH here and finished as a Top 12 finalist.' },
-    { id: '1790273254475', group: 'event', title: 'IT Certification Subsidy — Cyber-ssistance', issuer: 'MSEUF University Collegiate Student Council', type: 'Recognition', date: '2026-05-25', note: 'Recognized under the Cyber-ssistance EU project for dedication and growth in information and communications technology.' },
+    { id: '1790314164915', group: 'event', title: 'SiKAPTala 2026 Virtual Hackathon', issuer: 'DLSU-Dasmariñas CICS', type: 'Hackathon', date: '2026-05-31', note: 'National CS & IT competition, May 11 to 15, 2026. Team Debuggerinas built CheckMatePH here and finished as a Top 12 finalist.' },
+    { id: '1790273254475', group: 'event', title: 'IT Certification Subsidy (Cyber-ssistance)', issuer: 'MSEUF University Collegiate Student Council', type: 'Recognition', date: '2026-05-25', note: 'Recognized under the Cyber-ssistance EU project for dedication and growth in information and communications technology.' },
     { id: 'Z94YALFI9J9R', group: 'course', title: 'Programming Languages I', issuer: 'KAIST via Coursera', type: COURSE, date: '2026-05-01', verify: coursera('Z94YALFI9J9R') },
     { id: 'KEFO5SNLU2LZ', group: 'course', title: 'Software Engineering: Implementation and Testing', issuer: 'HKUST via Coursera', type: COURSE, date: '2026-04-07', verify: coursera('KEFO5SNLU2LZ') },
     { id: 'XXVY0AS1V1O0', group: 'course', title: 'Software Engineering: Software Design and Project Management', issuer: 'HKUST via Coursera', type: COURSE, date: '2026-04-07', verify: coursera('XXVY0AS1V1O0') },
     { id: 'PUFE1IEG5I6I', group: 'course', title: 'Machine Learning with Python', issuer: 'IBM via Coursera', type: COURSE, date: '2026-04-07', verify: coursera('PUFE1IEG5I6I') },
     { id: '8PUHF2JU1GL0', group: 'course', title: 'Software Engineering: Modeling Software Systems using UML', issuer: 'HKUST via Coursera', type: COURSE, date: '2026-02-24', verify: coursera('8PUHF2JU1GL0') },
-    { id: '1790270321970', group: 'event', title: 'ASEAN Data Science Explorers 2026 — SAP Analytics Cloud Training', issuer: 'SAP & ASEAN Foundation', type: 'Enablement session', date: '2026-08' },
-    { id: '1790273345955', group: 'event', title: 'Open iT Codefest 2025', issuer: 'OpenIT Philippines, Inc.', type: 'Hackathon', date: '2025-11-09', note: '“Next Level Code: Refining Good into Great”, November 8–9, 2025 in Lucena City. Yougyog was built here.' },
+    { id: '1790270321970', group: 'event', title: 'ASEAN Data Science Explorers 2026: SAP Analytics Cloud Training', issuer: 'SAP & ASEAN Foundation', type: 'Enablement session', date: '2026-08' },
+    { id: '1790273345955', group: 'event', title: 'Open iT Codefest 2025', issuer: 'OpenIT Philippines, Inc.', type: 'Hackathon', date: '2025-11-09', note: '“Next Level Code: Refining Good into Great”, November 8 and 9, 2025 in Lucena City. Yougyog was built here.' },
     { id: 'L63R23VV8RL0', group: 'course', title: 'System Validation: Automata and Behavioural Equivalences', issuer: '28DIGITAL via Coursera', type: COURSE, date: '2025-11-20', verify: coursera('L63R23VV8RL0') },
     { id: 'V1XDBAXOZL6U', group: 'course', title: 'Create the User Interface with SwiftUI', issuer: 'Meta via Coursera', type: COURSE, date: '2025-11-20', verify: coursera('V1XDBAXOZL6U') },
     { id: 'DTZX0JM7TT1B', group: 'course', title: 'Data Privacy and Protection Standards', issuer: 'Coursera', type: COURSE, date: '2025-10-27', verify: coursera('DTZX0JM7TT1B') },
     { id: 'PIA0YR8SK6S6', group: 'course', title: 'Ethics of Artificial Intelligence', issuer: 'Politecnico di Milano via Coursera', type: COURSE, date: '2025-09-30', verify: coursera('PIA0YR8SK6S6') },
-    { id: '1790313950845', group: 'event', title: 'BPI DATA Wave 2025 — Human-Centered Market Research & Ideation', issuer: 'Eskwelabs', type: 'Learning sprint', date: '2025-07-11' },
-    { id: '1790270657146', group: 'event', title: 'AppCon 2024 — Invitational App Development Contest', issuer: 'OTIS Japan Inc.', type: 'Participation', date: '2025-06-28', note: 'Team Techivision, developing an application with AI and IoT solutions for social issues in the Philippines.' },
+    { id: '1790313950845', group: 'event', title: 'BPI DATA Wave 2025: Human-Centered Market Research & Ideation', issuer: 'Eskwelabs', type: 'Learning sprint', date: '2025-07-11' },
+    { id: '1790270657146', group: 'event', title: 'AppCon 2024: Invitational App Development Contest', issuer: 'OTIS Japan Inc.', type: 'Participation', date: '2025-06-28', note: 'Team Techivision, developing an application with AI and IoT solutions for social issues in the Philippines.' },
     { id: 'YDU9K1Z5WI30', group: 'course', title: 'Dynamic Programming, Greedy Algorithms', issuer: 'University of Colorado Boulder via Coursera', type: COURSE, date: '2025-05-17', verify: coursera('YDU9K1Z5WI30') },
     { id: '4DL9WY4UTY2Y', group: 'course', title: 'Introduction to Structured Query Language (SQL)', issuer: 'University of Michigan via Coursera', type: COURSE, date: '2025-05-14', verify: coursera('4DL9WY4UTY2Y') },
     { id: '9XCHRDD34VTZ', group: 'course', title: 'z/Architecture Assembler Language Part 1: The Basics', issuer: 'IBM via Coursera', type: COURSE, date: '2025-04-30', verify: coursera('9XCHRDD34VTZ') },
     { id: 'STFK5KBUA5JJ', group: 'course', title: 'Flutter and Dart: Developing iOS, Android, and Mobile Apps', issuer: 'IBM via Coursera', type: COURSE, date: '2025-04-28', verify: coursera('STFK5KBUA5JJ') },
-    { id: '1790270794010', group: 'event', title: 'Tech Nexus 2024: Empowering Campus Innovators', issuer: 'Campus DEVCON', type: 'Recognition', date: '2024-12-07', note: 'Campus DEVCON Summit 2024 at the University of Batangas – Lipa Campus.' },
+    { id: '1790270794010', group: 'event', title: 'Tech Nexus 2024: Empowering Campus Innovators', issuer: 'Campus DEVCON', type: 'Recognition', date: '2024-12-07', note: 'Campus DEVCON Summit 2024 at the University of Batangas, Lipa Campus.' },
   ];
 
   const monthFmt = new Intl.DateTimeFormat('en-US', { month: 'short', year: 'numeric' });
@@ -671,7 +671,7 @@
     if (!project) return;
     const items = project.shots.map((caption, i) => ({
       src: `images/projects/${slug}/${i + 1}.webp`,
-      alt: `${project.title} — ${caption}`,
+      alt: `${project.title}: ${caption}`,
       caption,
     }));
     openLightbox(
@@ -707,7 +707,7 @@
         const cta = c.verify ? 'View credential' : 'View certificate';
         const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
         return `<li class="pass" data-group="${c.group}" style="--a:${tone[0]};--b:${tone[1]}">
-  <button class="pass-card" type="button" data-cert="${c.id}" aria-label="${esc(c.title)} — ${esc(c.issuer)}, ${shortDate(c.date)}. Open certificate">
+  <button class="pass-card" type="button" data-cert="${c.id}" aria-label="${esc(c.title)} from ${esc(c.issuer)}, ${shortDate(c.date)}. Open certificate">
     <span class="pass-head">
       <span class="pass-title">${esc(c.title)}</span>
       <span class="pass-date"><span class="pass-label">Issued</span><span class="pass-value">${shortDate(c.date)}</span></span>
@@ -892,7 +892,7 @@
         $$('[data-resume]').forEach((a) => {
           a.removeAttribute('download');
           a.href = `mailto:${EMAIL}?subject=${encodeURIComponent('Résumé request')}`;
-          a.addEventListener('click', () => toast('Résumé on request — opening an email draft'));
+          a.addEventListener('click', () => toast('Résumé on request. Opening an email draft'));
         });
       });
   }
@@ -915,8 +915,8 @@
       const d = new Date(monday);
       d.setDate(monday.getDate() + i);
       $('span', a).textContent = d.getDate();
-      a.href = `mailto:${EMAIL}?subject=${encodeURIComponent(`Let’s talk — ${shortDay.format(d)}`)}`;
-      a.setAttribute('aria-label', `${longDay.format(d)}${i === todayIndex ? ' (today)' : ''} — email Stephen to set up a chat`);
+      a.href = `mailto:${EMAIL}?subject=${encodeURIComponent(`Let’s talk on ${shortDay.format(d)}`)}`;
+      a.setAttribute('aria-label', `${longDay.format(d)}${i === todayIndex ? ' (today)' : ''}. Email Stephen to set up a chat`);
       a.classList.toggle('is-today', i === todayIndex);
       a.classList.remove('is-picked');
     });
