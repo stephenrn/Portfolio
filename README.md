@@ -27,7 +27,7 @@ I’m looking for **on-the-job training** in software development or business an
 | Project | Summary | Built with |
 | --- | --- | --- |
 | **Procurement Workflow Optimization System**<br><sub>Undergraduate thesis</sub> | Shows procurement teams where approvals stall, forecasts completion time and delay risk, and ranks the queue with quantum-inspired heuristics. [Request a demo](mailto:stephenrainevilleta16@gmail.com?subject=Demo%20request%20%E2%80%94%20Procurement%20Workflow%20Optimization%20System) | C#, .NET, SQL |
-| [**CheckMatePH**](https://github.com/jpmartirez/checkmateph)<br><sub>Top 12 finalist, SIKAPTala 2026</sub> | AI-powered fact-checking for political claims and civic engagement. | Next.js, TypeScript, Supabase, OpenAI API |
+| [**CheckMatePH**](https://github.com/jpmartirez/checkmateph)<br><sub>Top 6 team, SIKAPTala 2026</sub> | AI-powered fact-checking for political claims and civic engagement. | Next.js, TypeScript, Supabase, OpenAI API |
 | [**Unloque**](https://github.com/stephenrn/Unloque)<br><sub>Welfare access & analytics</sub> | Maps beneficiary distribution in real time and flags underserved areas to guide resource allocation. | Flutter, Firebase, Next.js |
 | [**Liwanag**](https://github.com/p-ragudo/capstone_openit)<br><sub>Open iT Bootcamp 2026 · built in 17 hours</sub> | Tracks household energy use and estimates the electricity bill before it arrives. | React, ASP.NET Core, PostgreSQL, Docker |
 | [**Yougyog**](https://github.com/Jedybox/OpenITCodeFest2025)<br><sub>Open iT CodeFest 2025 · built in 17 hours</sub> | Real-time earthquake alerts with safety steps, event summaries and quake history. | React, Express, Socket.IO, USGS API |
@@ -36,10 +36,9 @@ I’m looking for **on-the-job training** in software development or business an
 
 | | |
 | --- | --- |
-| **Business & analytics** | Business process analysis, data analysis & reporting, forecasting, market research |
-| **Languages** | Python, Java, C++, C#, Dart, JavaScript, TypeScript, SQL, Swift |
-| **Frameworks & APIs** | React, Next.js, Node.js, Express.js, ASP.NET Core, Flutter, Tailwind CSS, REST APIs |
-| **Data, cloud & tools** | PostgreSQL, MySQL, Supabase, Firebase, Microsoft Azure, Docker, Git, GitHub, Postman |
+| **Languages** | C#, Python, Java, C++, JavaScript, Dart, SQL, Swift |
+| **Frameworks & APIs** | REST APIs, ASP.NET Core, React, Node.js, Flutter, Tailwind CSS |
+| **Data, cloud & tools** | Microsoft Azure, Postman, Docker, Git, GitHub, PostgreSQL, MySQL, Supabase, Firebase |
 
 ## Certifications
 
@@ -52,7 +51,7 @@ I’m looking for **on-the-job training** in software development or business an
 
 The [Certificates section](https://stephenrn.github.io/Portfolio/#certifications) lists all 34 credentials. Each one opens its certificate and a verify link where available.
 
-**Hackathons & activities:** SIKAPTala 2026 (Top 12 finalist) · Open iT CodeFest 2025 · ASEAN Data Science Explorers 2026 · BPI DATA Wave 2025 · Tech Nexus 2024 · AppCon 2024
+**Hackathons & activities:** SIKAPTala 2026 (Top 6 team) · Open iT CodeFest 2025 · ASEAN Data Science Explorers 2026 · BPI DATA Wave 2025 · Tech Nexus 2024 · AppCon 2024
 
 ---
 

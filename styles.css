@@ -879,7 +879,7 @@ button {
 
 /* ───────────── 02 · About ───────────── */
 .about {
-  min-height: calc(2032 * var(--u));
+  padding-bottom: calc(108 * var(--u));
 }
 
 .about-intro {
@@ -1012,7 +1012,6 @@ button {
 .folder--orange {
   --fc: var(--folder-orange);
   height: auto;
-  min-height: calc(512 * var(--k));
   margin-top: calc(-35.4 * var(--k));
   z-index: 3;
 }

@@ -39,8 +39,8 @@
     },
     checkmateph: {
       title: 'CheckMatePH',
-      kicker: 'Top 12 finalist · SiKAPTala 2026',
-      desc: 'Built with team Debuggerinas for SiKAPTala 2026, the national CS & IT competition, where we finished as a Top 12 finalist. Every political post is fact-checked by AI before it goes live, with verified politician profiles, a promise-vs-action tracker and real-time debate rooms.',
+      kicker: 'Top 6 · SiKAPTala 2026',
+      desc: 'Built with team Debuggerinas for SiKAPTala 2026, the national CS & IT competition, where our team finished in the Top 6 of 353 student participants. Every political post is fact-checked by AI before it goes live, with verified politician profiles, a promise-vs-action tracker and real-time debate rooms.',
       stack: 'Next.js · TypeScript · Supabase · OpenAI API',
       link: { href: 'https://github.com/jpmartirez/checkmateph', label: 'View on GitHub' },
       shots: [
@@ -126,7 +126,7 @@
     { id: '468HGRJ8KF9E', group: 'course', title: 'The Arduino Platform and C Programming', issuer: 'UC Irvine via Coursera', type: COURSE, date: '2026-06-18', verify: coursera('468HGRJ8KF9E') },
     { id: '7OXWSUUCVIGS', group: 'course', title: 'Interfacing with the Arduino', issuer: 'UC Irvine via Coursera', type: COURSE, date: '2026-06-18', verify: coursera('7OXWSUUCVIGS') },
     { id: '2WJK84LQH450', group: 'course', title: 'Software Testing, Deployment, and Maintenance Strategies', issuer: 'IBM via Coursera', type: COURSE, date: '2026-06-17', verify: coursera('2WJK84LQH450') },
-    { id: '1790314164915', group: 'event', title: 'SiKAPTala 2026 Virtual Hackathon', issuer: 'DLSU-Dasmariñas CICS', type: 'Hackathon', date: '2026-05-31', note: 'National CS & IT competition, May 11 to 15, 2026. Team Debuggerinas built CheckMatePH here and finished as a Top 12 finalist.' },
+    { id: '1790314164915', group: 'event', title: 'SiKAPTala 2026 Virtual Hackathon', issuer: 'DLSU-Dasmariñas CICS', type: 'Hackathon', date: '2026-05-31', note: 'National CS & IT competition, May 11 to 15, 2026. Team Debuggerinas built CheckMatePH here and finished in the Top 6.' },
     { id: '1790273254475', group: 'event', title: 'IT Certification Subsidy (Cyber-ssistance)', issuer: 'MSEUF University Collegiate Student Council', type: 'Recognition', date: '2026-05-25', note: 'Recognized under the Cyber-ssistance EU project for dedication and growth in information and communications technology.' },
     { id: 'Z94YALFI9J9R', group: 'course', title: 'Programming Languages I', issuer: 'KAIST via Coursera', type: COURSE, date: '2026-05-01', verify: coursera('Z94YALFI9J9R') },
     { id: 'KEFO5SNLU2LZ', group: 'course', title: 'Software Engineering: Implementation and Testing', issuer: 'HKUST via Coursera', type: COURSE, date: '2026-04-07', verify: coursera('KEFO5SNLU2LZ') },
